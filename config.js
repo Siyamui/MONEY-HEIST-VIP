@@ -21,10 +21,10 @@ const fsm = require('fs'); if (fsm.existsSync('config.env')) require('dotenv').c
 ╚═╝░░░░░╚═╝╚═════╝░ 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗠𝗥 𝗗𝗜𝗟𝗔 𝗢𝗙𝗖
 */
 
-SESSION_ID: process.env.SESSION_ID || "", 
-MONGODB: process.env.MONGODB || "",
+SESSION_ID: process.env.SESSION_ID || "MONEY-HEIST-MD-uJMwAQAJ#-Lw_Qbw8ZCYzcfW-egSQYWU6XrOmpunJWRolS8ej76Q-DILALK", 
+MONGODB: process.env.MONGODB || "https://cloud.mongodb.com/v2/6789e440132844301b62f824#/overview",
 HEROKU_API: process.env.HEROKU_API || "HRKU-ed5c6fb8-14b9-4e21-b652-0df45300750f",
-OWNER_NUMBER:process.env.OWNER_NUMBER || "",
+OWNER_NUMBER:process.env.OWNER_NUMBER || "94725599256",
 
 //Github Workflows Deploy කරනව නම් පමනක් පහත Env යෙදිය යුතුය!
 GITHUB_TOKEN: process.env.GITHUB_TOKEN || "",
